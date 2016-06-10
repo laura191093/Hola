@@ -1,0 +1,24 @@
+
+.incidenciaBaja {
+background-color:#33CC33;
+}
+
+ .incidenciaMedia {
+
+background-color:#FFCC00;
+
+}
+
+ .incidenciaAlta {
+
+background-color:#CC0000;
+color:#FFFFFF;
+
+}
+
+ .mensaje {
+
+color:#003399;
+font-weight: bold;
+
+}

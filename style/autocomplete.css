@@ -1,0 +1,42 @@
+
+
+.ui-widget { font-family: Georgia, "Times New Roman", Times, serif; font-size: 10px; }/*tamaño de la letra  */
+.ui-widget-content { border: 1px solid #dddddd; background: #eeeeee;/*linea del cuadro  */  20% top repeat-x;  }
+.ui-widget-content a { color: #333333; }/*color de la letra  */
+
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus,
+/*muestra el efecto naranja */ 
+.ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #FFFFFF; background:  #0669af; font-weight: lighter; color:  #FFFFFF; 	font-weight:bold; text-align:left;}/*color de la letra  */
+/*borde al momento de seleccionarlo */
+
+
+.ui-autocomplete { position: absolute; cursor: pointer; }	
+
+* html .ui-autocomplete { width:2px; } /* tamaño del menu desplegable*/
+
+.ui-menu {/*acomoda  */
+	list-style:none;/*esto agrega viñetas*/
+	padding: 3px;
+	margin: 2;
+	display: compact;
+	float: right;
+	width:290px;
+	text-align:left;
+	height:550px;
+	overflow:auto;
+
+
+}
+.ui-menu .ui-menu-item a {/*rellena toda la fila */
+	text-decoration:none;
+	display:block;
+	padding:.2em .4em;
+	line-height:1;
+	zoom:1;
+	width:290px;
+	text-align:left;
+
+
+
+}

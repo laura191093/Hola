@@ -1,0 +1,107 @@
+/* CSS Document */
+
+form.reporte input[type="text"] {
+/*    background: #F5F5F5;*/
+	background: #F5F5F5 ;
+    border: 1px solid #E8E8E8;
+
+    display: block;
+    float: left;
+    padding: 5px;
+    resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	width:270px;
+}
+
+
+form.reporte input[type="text"]:focus, form.reporte textarea:focus {
+    background: #F5F5F5;
+    border: 1px solid #D3D3D3;
+    outline: none;
+    padding: 5px;
+	
+
+}
+
+
+select { 
+
+	width:280px;
+    background: #F9F9F9;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 0 10px #DADADA;
+    -webkit-box-shadow: 0 0 10px #DADADA;
+    -moz-box-shadow: 0 0 10px #DADADA;
+    padding: 5px;
+	
+	 resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	
+ }
+ 
+
+
+
+label{
+  color:#545454;
+  font-family: Arial;
+  font-size: 12px;
+  text-shadow:0 1px 1px #f2f2f2;
+}
+
+
+
+
+
+input[type=checkbox].css-checkbox {
+position:absolute;
+z-index:-1000; 
+left:-1000px;
+overflow: hidden;
+clip: rect(0 0 0 0);
+height:1px; 
+width:1px; 
+margin:-1px; 
+padding:0; 
+border:0;
+
+						}
+
+input[type=checkbox].css-checkbox + label.css-label {
+padding-left:26px;
+height:21px; 
+display:inline-block;
+line-height:21px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:14px;
+vertical-align:middle;
+cursor:pointer;
+
+						}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+background-position: 0 -21px;
+
+						}
+						
+						
+			
+label.css-label {
+background-image:url(../imagenes/checkfisico.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+			}
+			
+.estatus {
+
+color:#990000;
+font-weight:bold;
+}
+

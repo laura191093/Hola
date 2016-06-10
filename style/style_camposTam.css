@@ -1,0 +1,41 @@
+form.reporte input[type="text"] {
+/*    background: #F5F5F5;*/
+	background: #F5F5F5 ;
+    border: 1px solid #E8E8E8;
+    color: write;
+    display: block;
+    float: left;
+    padding: 5px;
+    resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+}
+
+
+form.reporte input[type="text"]:focus, form.reporte textarea:focus {
+    background: #F9F9F9;
+    border: 1px solid #D3D3D3;
+    outline: none;
+	color: write;
+    padding: 5px;
+
+ 
+}
+
+
+select { 
+
+	width:280px;
+    background: #F9F9F9;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 0 10px #DADADA;
+    -webkit-box-shadow: 0 0 10px #DADADA;
+    -moz-box-shadow: 0 0 10px #DADADA;
+    padding: 5px;
+	
+	 resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	
+ }
+ 

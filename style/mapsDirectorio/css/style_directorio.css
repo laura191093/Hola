@@ -1,0 +1,39 @@
+/* CSS Document */
+
+
+#divicion-Titulos{
+
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	padding-top:0px;	
+	padding-bottom:20px;
+/*	border-right:30px solid transparent;*/
+	border-bottom:39px solid #0669af;
+	line-height:50px;
+
+	height:0;
+	text-decoration: none;
+	float:left;
+	width:1140px;
+	text-transform: uppercase;
+	text-align:center;
+
+}
+
+
+#map_container{
+text-align:left;
+font-size:18px;
+position: relative;
+
+
+}
+
+
+#map_canvas 
+{
+height:45%; 
+width:45%: 
+color:#CC0000;
+}

@@ -1,0 +1,31 @@
+
+.button {
+/*	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;*/
+	padding: 4px 8px;
+	text-transform: capitalize;
+	text-decoration: none;
+	-moz-box-shadow: 0 1px 2px #343434;
+	-webkit-box-shadow: 0 1px 2px #343434;
+	cursor: pointer;
+	font-size:14px;
+}
+
+.themed{
+	background: #0669af url("../img/back_blue.jpg")/*tpa=http://www.mantizdev.net/magneto_admin/gfx/back_blue.jpg*/ repeat-x left top;
+	color: white !important;
+	border: 1px solid #2a9fee;
+}
+.themed:hover {
+	background: #248bd0 url("../img/back_blue_hover.jpg")/*tpa=http://www.mantizdev.net/magneto_admin/gfx/back_blue_hover.jpg*/ repeat-x left top;
+}
+
+
+.themed2{
+	background: #5cb85c;
+	color: white !important;
+	border: 1px solid #4cae4c;
+}
+.themed2:hover {
+	background: #4cae4c;/*tpa=http://www.mantizdev.net/magneto_admin/gfx/back_blue_hover.jpg*/ repeat-x left top;
+}

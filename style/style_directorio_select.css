@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.element {
+        min-height: 100px;
+        width: 560px;
+        box-shadow: 0 2px 5px #666666;
+        padding: 10px;
+		margin-top:5px;
+		margin: 0 auto;
+
+    }
+	
+	.elementT {
+        min-height: 100px;
+        width: 1100px;
+		margin-top:5px;
+		margin: 0 auto;
+
+    }
+	
+
+.divMenú {
+        min-height: 90px;
+        width: 450px;
+        padding: 10px;
+		margin-top:5px;
+		margin: 0 auto;
+		align:right;
+
+    }
+	
+	
+
+
+

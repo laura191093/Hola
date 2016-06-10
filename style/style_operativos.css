@@ -1,0 +1,53 @@
+.verde{
+	background-color: #00A600;
+}
+
+.amarillo{
+	background-color: #DFE40E
+}
+
+.rojo{
+	background-color: #FF2B2B
+}
+
+#divProgreso {
+
+	height:6px;
+	color:#333333;
+	font-family:'Georgia', Times New Roman, Times, serif; 
+	font-size:10px; 
+	font-weight:bold; 
+}
+
+#divCajaProgreso {
+	height: 6px; 
+	width:690px;
+	background: #FFFFFF;
+	margin-bottom: 5px;
+	border: solid #FFFFFF 1px;
+}
+
+#divContador {
+	float:right; 
+	margin-right:5px; 
+	margin-top: -1px;
+	font-family:'Georgia', Times New Roman, Times, serif; 
+	font-size:12px; 
+	font-weight:bold; 
+	color:#006699;
+}
+
+#divContenedor{
+	margin: 0 auto;
+	padding: 5px;
+	width: 360px;
+}
+
+.resultados {
+	color: #005fbf;
+	font-size: 20px;
+	font-weight:bold;
+
+
+    }
+

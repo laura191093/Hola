@@ -1,0 +1,70 @@
+form.reporteDirectorio input[type="text"] {
+/*    background: #F5F5F5;*/
+	background: #F5F5F5 ;
+    border: 1px solid #E8E8E8;
+    color: write;
+    display: block;
+    float: left;
+    padding: 5px;
+    resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	width:200px;
+	text-align:center;
+}
+
+
+
+form.ConsultaDirectorio input[type="text"],  form.ConsultaDirectorio textarea {
+/*    background: #F5F5F5;*/
+	background: #F5F5F5 ;
+    border: 1px solid #E8E8E8;
+    color: write;
+    display: block;
+    float: left;
+    padding: 5px;
+    resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	width:350px;
+	font-size:12px;
+}
+
+form.ConsultaDirectorio input[type="text"]:focus, form.ConsultaDirectorio textarea:focus {
+    background: #F5F5F5;
+    border: 1px solid #D3D3D3;
+    outline: none;
+	color: write;
+    padding: 5px;
+	width:350px;
+   font-size:12px;
+
+ 
+}
+
+
+form.DirectorioTam input[type="text"] {
+/*    background: #F5F5F5;*/
+	background: #F5F5F5 ;
+    border: 1px solid #E8E8E8;
+    color: write;
+    display: block;
+    float: left;
+    padding: 5px;
+    resize: none;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+	text-align:center;
+	font-size:12px;
+}
+
+form.DirectorioTam input[type="text"]:focus, form.ConsultaDirectorio textarea:focus {
+    background: #F5F5F5;
+    border: 1px solid #D3D3D3;
+    outline: none;
+	color: write;
+    padding: 5px;
+    font-size:12px;
+
+ 
+}

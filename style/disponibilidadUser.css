@@ -1,0 +1,34 @@
+#Error{
+
+	background-image:url(../imagenes/advertencia.png);
+	
+	background-repeat:no-repeat;
+	background-position:left; 
+	color:#FF0000; 
+	font-weight:bold;
+	font-size:12px;
+	padding-left:33px; 
+	height:19px; 
+	padding-top:6px;
+	padding-right:10px;
+
+	}
+
+#Success{
+
+	background-image:url(../imagenes/disponible.png);
+
+	background-repeat:no-repeat;
+	background-position:left; 
+	color:#006699; 
+	font-weight:bold;
+	font-size:12px;
+	padding-left:33px; 
+	height:19px; 
+	padding-top:6px;
+	padding-right:10px;
+
+
+	}
+
+

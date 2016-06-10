@@ -1,0 +1,35 @@
+
+#resultados{ 
+ margin:0px;
+ width:280px;
+ color:#333333;          
+}
+
+.sugerencias:hover{
+ background-color:#FF6600;
+ color:#ffffff;
+ cursor:pointer; 
+ font-size:17px;
+}
+
+body{
+
+ font-size:12px;
+
+}
+
+#buscar{
+ background-image:url(../imagenes/search.png);
+ background-size:30px 25px;/*tamano imagen*/
+ background-repeat:no-repeat;
+ background-position:right;
+ border-radius: 5px;
+ border-style:solid;
+ border-color:#1E90FF;
+ border-width:2px;
+ height:30px;
+ color:black;
+ font-size:14px;
+
+}
+       
